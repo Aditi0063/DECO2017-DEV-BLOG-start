@@ -12,7 +12,7 @@ tags:
 
 The BlaBla Corp brief uses words like “effortless sharing” and “tailored experiences” and aims to retain its users to come back for shared experiences and a valuable community. The brief wants us to answer what makes a community worth returning to in the first place and something that sets it apart from other platforms that already exist. 
 
-One constraint that will affect the design decision is that there is no login page to build. Authentication is handled by the BlaBla Copr platform, which means every user arriving at the hub is a part of the main corporation. This is an important consideration as there are no specific guests to design around. The ideas can be as creative and unique, and they can be the centre of the experience. 
+One constraint that will affect the design decision is that there is no login page to build. Authentication is handled by the BlaBla Corp platform, which means every user arriving at the hub is a part of the main corporation. This is an important consideration as there are no specific guests to design around. The ideas can be as creative and unique, and they can be the centre of the experience. 
 
 My initial ideas either target all kinds of creatives at different stages or target users who are into playing and reviewing indie games. These are user groups have loyal fan bases who would love a community aspect as I am personally a part of these communities. Each of these ideas have a genuine case for why they need to have something beyond what Reddit or Discord already offer. 
 
