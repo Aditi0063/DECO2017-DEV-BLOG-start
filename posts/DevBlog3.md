@@ -38,7 +38,6 @@ This aims to serve the same project accountability but with a simple and straigh
 
 ## Sitemap: 
 Version 1: 
-![Sitemap Version 1](assets/images/SitemapV1.png) 
 
 
 
