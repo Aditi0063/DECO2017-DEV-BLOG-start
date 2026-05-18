@@ -5,51 +5,36 @@ author: Aditi Saligrama Hegde , 550292362
 summary: Short description
 tags:
   - group dicussion
-  - main idea
-  - tag3
+  - idea generation
+  - main concept
 ---
 # My second blog -  Beans and our design idea
 
-As a group (Beans), we decided to bring in three separate concepts and find either one idea that worked or one unique feature for us to start with. 
+As a group (Beans), we decided to bring in three separate concepts and find either one idea that worked or one unique feature for us to start with. All the ideas had their own strengths and weaknesses:  
 
-Idea 1: Music Collaboration Platform 
-Idea 2: Startup Project Builder 
-Idea 3: Indie Game Review (mine) 
-Each idea had its own strengths and weaknesses, but none of them felt complete on their own. 
+## Idea 1: Music Collaboration Platform 
+The music platform had the most unique concept, but required Web Audio API knowledge and was way beyond our current stack and skillset. 
 
-The music platform had the most unique concept, but the coding and audio engineering knowledge required was way beyond our current stack and skillset. 
-
+## Idea 2: Startup Project Builder 
 The startup builder platform had a good structure, but felt too corporate and had various other replacement platforms existing. 
 
-The indie game review platform had a simple plan, but the community is too narrow for user testing. 
+## Idea 3: Indie Game Review (mine)
+I brought the indie game idea instead because it was slightly more unique, because of the target audience and was simpler to make in terms of the scope.
+The indie game review platform had a simple plan, but the community is too narrow for user testing, and after leaving the review, there was no incentive to keep the community coming back for more. 
 
 What emerged was borrowing different ideas from each and then combining and reevaluating to create a platform - a hub for creatives where they pitch short-term projects, build a real team and finish them together. 
 
-Concept Idea: 
+## The Concept: SPARK - Pitch the project, rate, team up, build and share with the community!
 
-Features
-Pitch an idea and tag a discipline - Design, Tech, Music, Writing, etc 
-Get rated by the community
-Build your team - ask for specific roles 
-Create something real
+### The Score System: 
+To create a more unique experience, ideas accumulate a score that is a composite of community ratings, nudges received and recent activity. When ideas cross a threshold, they earn “Hot Idea” status in a weekly spotlight section. This matters because a static feed doesn’t retain users and give them a reason to return. A dynamic ranking helps reward the quality of ideas and promote engagement. 
 
-Spark score system
-Instead of a simple star average, ideas accumulate a ‘spark score’:
-Community star ratings
-Number of nudges received
-How recently it was active
-Ideas above a certain spark score get a ‘hot idea’ status, where they can be featured in a weekly spotlight section.
+### Teams: 
+The team formation uses role-based slots rather than open collaboration for all. The poster defines exactly who they need, like “1 designer and 1 writer needed” with each slot displayed as open or filled. When the designer nudges the poster, they get to specify the exact role they are applying for, and the creator either accepts or declines per slot, giving them the freedom to choose their teammates. Once all the roles are filled, build mode is activated. 
 
-Role-based team slots
-The creator defines specific roles they need, rather than just open collaboration
-“Need: 1 designer, 1 developer…”
-Each role slot shows as open/filled 
-When you nudge someone, you specify which role you are applying for
-Creator can accept or decline nudges per role
-Once all slots are filled, the project locks into a build mode
+### Build mode: 
+We are aiming to make this our core function. The team moves through five structured phases - Ideate, Plan, Build, Post and Reflect. 
 
-Structured project phases
-Once a team is assembled, the idea enters build mode with defined phases
-Ideate - plan - build - ship - reflect
-Each phase has a simple checklist that the team ticks off together
-The project card on the discovery page shows a progress bar through these phases 
+### Scope: 
+- MUST: Posting the pitch with tags and role slots, Spark Scores, nudge system, discovery feed, build mode phase tracker, outcome card and badge on completion. 
+- Can add later: The weekly spotlight feature, advanced feed filtering, and emoji reactions on outcomes for building onto the community aspect. 
