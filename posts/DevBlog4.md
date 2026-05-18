@@ -1,5 +1,5 @@
 ---
-title: Post Title
+title: Wireframes and Visuals
 date: 2026-05-08
 author: Aditi Saligrama Hegde , 550292362
 summary: Short description

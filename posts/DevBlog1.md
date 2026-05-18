@@ -8,7 +8,7 @@ tags:
   - first ideas
   - assessing ideas
 ---
-# Interpretation of the brief & the start!
+# My first blog - Interpretation of the brief & the start!
 
 The BlaBla Corp brief uses words like “effortless sharing” and “tailored experiences” and aims to retain its users to come back for shared experiences and a valuable community. The brief wants us to answer what makes a community worth returning to in the first place and something that sets it apart from other platforms that already exist. 
 
