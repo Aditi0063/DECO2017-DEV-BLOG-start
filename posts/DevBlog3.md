@@ -8,7 +8,7 @@ tags:
   - new target audience
   - sitemap
 ---
-# My third blog -  Reevaluating the concept and new directions 
+# My third blog - Reevaluating the concept and new directions 
 
 ## Narrowing the Idea
 The concept has changed since the last blog. We started with a broad creative hub for anyone with a creative project idea - designers, musicians, filmmakers, etc but after revisiting the brief and understanding the depth of the project, we decided to narrow our target audience to designers. The decision was made based on risk management, with things like ease of user testing and ease of coding the project in mind. 
@@ -37,8 +37,15 @@ This aims to serve the same project accountability but with a simple and straigh
 7th page- my profile for users
 
 ## Sitemap: 
-Version 1: 
+### Version 1: 
 ![Sitemap of Folio Hub](../assets/images/SitemapV1.jpeg) 
+
+### Version 2: 
+
+Made using: https://www.gloomaps.com/ 
+
+Using Version 2 sitemap as a reference, I will be making wireframes to understand the information architecture and the user flow. 
+
 
 
 

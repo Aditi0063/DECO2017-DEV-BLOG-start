@@ -2,7 +2,7 @@
 title: Exploration of the Brief
 date: 2026-04-14
 author: Aditi Saligrama Hegde , 550292362
-summary: Short description
+summary: Understanding the briefs and coming up with first ideas
 tags:
   - keywords
   - first ideas

@@ -2,13 +2,13 @@
 title: Design Idea and New Direction
 date: 2026-04-26
 author: Aditi Saligrama Hegde , 550292362
-summary: Short description
+summary: Combining ideas and making a new concept 
 tags:
   - group dicussion
   - idea generation
   - main concept
 ---
-# My second blog -  Beans and our design idea
+# My second blog - Beans and our design idea
 
 As a group (Beans), we decided to bring in three separate concepts and find either one idea that worked or one unique feature for us to start with. All the ideas had their own strengths and weaknesses:  
 
@@ -38,3 +38,12 @@ We are aiming to make this our core function. The team moves through five struct
 ### Scope: 
 - MUST: Posting the pitch with tags and role slots, Spark Scores, nudge system, discovery feed, build mode phase tracker, outcome card and badge on completion. 
 - Can add later: The weekly spotlight feature, advanced feed filtering, and emoji reactions on outcomes for building onto the community aspect. 
+
+### Potential Risks: 
+The Spark Score system is the highest technical risk. Tracking ratings, nudges and recency simultaneously will need a significantly complicated backend. It will require three separate data points triggering a recalculation on every interaction. This has a high possibility of introducing bugs and becoming unstable in the future. 
+
+### Accessibility: 
+Star ratings and nudge buttons will need aria-labels for screen readers, AA contrast and visible text labels. The progress bar will need to announce the percentage of completion. 
+
+### Next Steps: 
+Our concept is currently very ambitious, whether all of it is buildable with our stack is the next question. The next post will focus on feasibility, creating our sitemap and understanding user flow. 
