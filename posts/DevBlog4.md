@@ -47,7 +47,7 @@ The profile displays username, bio and role tags at the top. Three tabs to depic
 
 ![User Profile Page Wireframe](../assets/images/P6UserProfile.jpeg) 
 
-### User flow: 
+## User flow: 
 Browse feed -> view pitch -> apply -> get accepted -> collaborate on checklist -> complete the project -> showcase -> build profile. Users either get to create projects or be the collaborator. 
 
 The next blog will focus on the creation of the databse tables, their relationship and how their interactions work. 
