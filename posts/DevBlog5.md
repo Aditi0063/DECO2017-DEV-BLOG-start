@@ -23,20 +23,20 @@ The projects table will be the most complex table because they will carry most o
 
 Every page reads from this table like the nav bar, pitch cards, applicant lists, and badge display all depend on it. What stood out when mapping this was how little we need to store for the users. BlaBla Corp will be handling the authentication, hence no password management. The only user data that matters to our concept is the editable role description and the badge. 
 
-(table)
+![DDD - USERS](../assets/images/DDDUsers.jpeg)
 
 ### DDD - Project 
 
 This is the heaviest table in our schema and it is the one that connects back to every other table. The status column controls access across all seven pages, what buttons render, which routes respond and what each user can see and storing this as one column was a decision to avoid conflicting states. One concern is who_needed as a string, aiming to be simple for now but could cause problems if we expand our scope. 
 
-(table)
+![DDD - Projects](../assets/images/DDDProjects.jpeg)
 
 ### DDD - Applications
 
 This table is focusing on many-to-many connections between users and projects, the team member record and the access control list for the owner version of the build page.
 Before rending, we aim for the Mojo.js queries this table to confirm the session user belongs. If any access control issues arise, this will be our first table to check. 
 
-(table)
+![DDD - Applications](../assets/images/DDDApplications.jpeg)
 
 ### DDD - Checklist Items 
 
