@@ -36,20 +36,19 @@ This is the heaviest table in our schema and it is the one that connects back to
 This table is focusing on many-to-many connections between users and projects, the team member record and the access control list for the owner version of the build page.
 Before rending, we aim for the Mojo.js queries this table to confirm the session user belongs. If any access control issues arise, this will be our first table to check. 
 
-![DDD - Applications](../assets/images/DDDApplications.jpeg)
+![DDD - Applications](../assets/images/DDDApplications.jpeg) 
 
 ### DDD - Checklist Items 
 
 The simplest table in our schema focuses on one row per task and one boolean for completion to help us make the progress bar. It will help calculate a single COUNT query rather than storing a pre-calculated percentage. This ensures the bar is always accurate.  
 
-(table)
+![DDD - Checklist_items](../assets/images/DDDChecklist_items.jpeg) 
 
 ### DDD - Project Ratings 
 
 After every INSERT, we aim for Mojo.js to run average stars for the project, if it hits three or above then, has_badge is set to 1 for the project owner and all the collaborators. To enforce a constraint on the server-side by checking for an existing row before inserting. 
 
-(table)
-
+![DDD - Project_ratings](../assets/images/DDDProject_Ratings.jpeg) 
 
 ## Entity Relationship Diagram: 
 
