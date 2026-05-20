@@ -15,13 +15,12 @@ Before coding, we started making wireframes to begin our journey. I made wirefra
 ## Page 1 - Home/Feed 
 This is our landing page. It features a two-card grid that displays with the pitch, a cover image, title, description, required roles, category tag and interest count. A horizontal tag filter at the top uses database query filtering by the discipline of design. The interest count is a way to create engagement and display how competitive a pitch is.
 
-(image)
-
+![Sitemap of Folio Hub Version 2](../assets/images/P1HomePage.jpeg) 
 
 ## Page 2 - Post a pitch 
 A form to post your pitch. There is space for the title and description, tags for the discipline, roles for the team, and it’s linked to the pitch ID and a pre-determined duration to help users have a set deadline to make it manageable. 
 
-(image)
+![Sitemap of Folio Hub Version 2](../assets/images/P2PostAPitch.jpeg) 
 
 ## Page 3 - Pitch details
 Shows everything a potential collaborator needs like deliverables, checklist, durations, description, roles, and role selector before applying. The checklists set expectations upfront, reducing misaligned collaborations. “I’m interested” writes a new applicant record linked to the selected role. 
