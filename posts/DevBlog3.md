@@ -38,7 +38,7 @@ This aims to serve the same project accountability but with a simple and straigh
 
 ## Sitemap: 
 Version 1: 
-![Sitemap of Folio Hub](../assets/images/SitemapV1.png) 
+![Sitemap of Folio Hub](../assets/images/SitemapV1.jpeg) 
 
 
 
