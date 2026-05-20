@@ -55,7 +55,7 @@ After every INSERT, we aim for Mojo.js to run average stars for the project, if 
 
 (image)
 
-We designed the diagram and the table's relationship together. 
+We designed the diagram and the table's relationship together as a group.  
 
 ### Relationships: 
 
@@ -80,6 +80,9 @@ The highest risk for interactions are the checklist tick, star rating and apply 
 They will require aria-labels for screen reader support and meet AA requirements. 
 
 These are non-negotiable interactions and the core loop will not function without them. 
+
+## Next Steps: 
+I will focus on displaying our intial HTML static pages, plan out our user testing experience and our plan for the last few days before the website submission. 
 
 
 
