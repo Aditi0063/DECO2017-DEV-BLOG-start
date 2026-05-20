@@ -38,9 +38,11 @@ This aims to serve the same project accountability but with a simple and straigh
 
 ## Sitemap: 
 ### Version 1: 
-![Sitemap of Folio Hub](../assets/images/SitemapV1.jpeg) 
+![Sitemap of Folio Hub version 1](../assets/images/SitemapV1.jpeg) 
 
 ### Version 2: 
+
+![Sitemap of Folio Hub Version 2](../assets/images/SitemapV2.jpeg) 
 
 Made using: https://www.gloomaps.com/ 
 
