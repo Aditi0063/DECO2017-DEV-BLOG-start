@@ -12,7 +12,7 @@ tags:
 
 This is the list of tables in our SQLite database and what each table is responsible for: 
 
-(table) 
+![Image of the Database Tables for SQL](../assets/images/DatabaseTables.jpeg)  
 
 The database is built around five tables that each serve a distinct role in the project lifecycle. The users table sits at the centre while all the other tables reference it through the foreign key. It will be used for project owner, applicant, or when someone leaves a rating. 
 The projects table will be the most complex table because they will carry most of the website's content like the pitch pages, on the user profile and the showcase page. The applications table acts as the foundation of the team formation record. The checklist_items and project_ratings table are lean and simple structures that keep the progress bar calculations in check and help with the badges concept. They will help us with fast and reliable logic triggering on every interaction. 
