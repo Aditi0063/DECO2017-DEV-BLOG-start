@@ -53,7 +53,7 @@ After every INSERT, we aim for Mojo.js to run average stars for the project, if 
 
 ## Entity Relationship Diagram: 
 
-(image)
+![ERD](../assets/images/ERD.jpeg) 
 
 We designed the diagram and the table's relationship together as a group.  
 

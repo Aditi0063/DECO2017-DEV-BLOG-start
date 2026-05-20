@@ -45,7 +45,7 @@ The project is displayed to the public and a link can be provided in the descrip
 ## User Profile 
 The profile displays username, bio and role tags at the top. Three tabs to depict what the user has done on the platform - my projects joined projects, showcased by each pulling from a different database query. The same component from the feed is reused, keeping the component library simple. 
 
-![Showcase Page Wireframe](../assets/images/P6UserProfile.jpeg) 
+![User Profile Page Wireframe](../assets/images/P6UserProfile.jpeg) 
 
 ### User flow: 
 Browse feed -> view pitch -> apply -> get accepted -> collaborate on checklist -> complete the project -> showcase -> build profile. Users either get to create projects or be the collaborator. 
