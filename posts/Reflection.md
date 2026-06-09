@@ -19,7 +19,7 @@ Another issue was that the fresh installations of the app would crash on the fee
 
 ![Lighthouse Inspection Table for FolioHub](../assets/images/Lighthouse_Table.jpeg) 
 
-Performance scores ranged from 97 to 99 with our FCP and LCP within the brief’s 3-second maximum. The Feed page scored slightly lower at 97 with an LCP of 1.2s, the highest across all pages, because it loads user-uploaded cover images. Lighthouse flagged up to 651KKiB of potential savings on the Feed page alone as a consequence of not processing images at upload time. By contrast, Applicants and Post a Pitch both scored 99 with an LCP of 0.7s, as neither page loads user images dynamically. Render-blocking requests(~490-730ms) appear consistently across all six pages, pointing towards the CSS stylesheet loading synchronously as a site-wide issue. 
+Performance scores ranged from 97 to 99 with our FCP and LCP within the brief’s 3-second maximum. The Feed page scored slightly lower at 97 with an LCP of 1.2s, the highest across all pages, because it loads user-uploaded cover images. Lighthouse flagged up to 651KiB of potential savings on the Feed page alone as a consequence of not processing images at upload time. By contrast, Applicants and Post a Pitch both scored 99 with an LCP of 0.7s, as neither page loads user images dynamically. Render-blocking requests(~490-730ms) appear consistently across all six pages, pointing towards the CSS stylesheet loading synchronously as a site-wide issue. 
 
 ### Feed - Lighthouse Inspection
 
@@ -83,7 +83,7 @@ Forms also have no inline validation, as a failed submission produces a server e
 
 # Functional Requirement 
 
-The core feature loop was shipped as intended - pitch posting, applying to projects, accepting and declining applicants, checklist progress tracking, multi-image upload, showcase page with star ratings and session-based authentication. The project status flow goes - open → completed → published; the owner/collaborator distinction is fully functional across all relevant pages. 
+The core feature loop was shipped as intended - pitch posting, applying to projects, accepting and declining applicants, checklist progress tracking, multi-image upload, showcase page with star ratings and session-based authentication. The project status flow goes - open → complete → published; the owner/collaborator distinction is fully functional across all relevant pages. 
 
 Two areas grew beyond the original scope. 
 The multi-userflow was the most underestimated as it initially seemed like a minor addition that revealed collaborators would need a different view of the checklist, project picker, publishing restrictions and required significant rework across multiple controllers and src.
