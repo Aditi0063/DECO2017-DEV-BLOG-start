@@ -57,6 +57,12 @@ Two smaller interactions that improved usability were: the “Interest sent” c
 
 The Current/Applied Projects dropdown on the My Projects page used to only display the user’s project, which was exactly what the profile page did. Instead, we made it display various active projects, what projects they are currently a part of and what they have applied to. This gave them the ability to view projects that they applied to, the status and the pitch.
 
+### I'm Interested Button / Feature
+
+![I'm Interested Button / Feature Use](../assets/images/ImInterested1.jpeg) 
+
+![I'm Interested Button / Feature Use](../assets/images/ImInterested2.jpeg) 
+
 
 ## Accessibility (Lighthouse & WAVE)
 
@@ -82,6 +88,11 @@ The core feature loop was shipped as intended - pitch posting, applying to proje
 Two areas grew beyond the original scope. 
 The multi-userflow was the most underestimated as it initially seemed like a minor addition that revealed collaborators would need a different view of the checklist, project picker, publishing restrictions and required significant rework across multiple controllers and src.
 My Projects page was significantly updated to provide a richer experience to both the owner and collaborators. Instead of adding a new page for notifications and a new schema table, we changed the way My Project displayed the projects the user is part of. 
+
+### Improved MyProject Page
+
+![Improved MyProject Page](../assets/images/MyProjects_New.jpeg) 
+
 
 The badge feature was not shipped due to a few reasons. The main idea was to award designers recognition based on their ratings on completed projects in the showcase. We didn’t design the database to support this during the planning stage. We would have had to create a badge table and a user_achievement table, and adding them in later stages of development would have meant redesigning our ERD and DDD, and we wouldn’t have been able to test the feature out in the remaining time. Has_badge is a part of Project Ratings in our DDD table, but we ultimately decided to cut this aspect. This is something I’d approach differently next time: features driven by derived logic to be planned and constructed from the start. 
 
