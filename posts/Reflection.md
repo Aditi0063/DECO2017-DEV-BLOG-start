@@ -17,13 +17,13 @@ Another issue was that the fresh installations of the app would crash on the fee
 
 ## Lighthouse Inspection 
 
-![Lighthouse Inspection Table for FolioHub](../assets/images/Lighthouse_Table.jpeg) 
+![Lighthouse Inspection Table for FolioHub](/assets/images/Lighthouse_Table.jpeg) 
 
 Performance scores ranged from 97 to 99 with our FCP and LCP within the brief’s 3-second maximum. The Feed page scored slightly lower at 97 with an LCP of 1.2s, the highest across all pages, because it loads user-uploaded cover images. Lighthouse flagged up to 651KKiB of potential savings on the Feed page alone as a consequence of not processing images at upload time. By contrast, Applicants and Post a Pitch both scored 99 with an LCP of 0.7s, as neither page loads user images dynamically. Render-blocking requests(~490-730ms) appear consistently across all six pages, pointing towards the CSS stylesheet loading synchronously as a site-wide issue. 
 
 ### Feed - Lighthouse Inspection
 
-![Feed - Lighthouse Inspection for FolioHub](../assets/images/Feed_Lighthouse.jpeg) 
+![Feed - Lighthouse Inspection for FolioHub](/assets/images/Feed_Lighthouse.jpeg) 
 
 ### Showcase - Lighthouse Inspection
 
